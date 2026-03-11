@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SebDevHN</title>
+    <link rel="icon" type="image/png" href="images/reallogo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;900&family=Shojumaru&family=Syncopate:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="cursed-overlay"></div>
+
+    <header>
+        <h1 class="jjk-title">My Favorite <br><span class="highlight">JJK</span> Characters</h1>
+    </header>
+
+    <main class="character-grid">
+        <article class="char-card gojo" id="gojo" data-char="gojo">
+            <div class="card-inner">
+                <div class="char-name">Satoru <br><span>Gojo</span></div>
+                <div class="char-ability">Limitless & Six Eyes</div>
+            </div>
+        </article>
+
+        <article class="char-card maki" id="maki" data-char="maki">
+            <div class="card-inner">
+                <div class="char-name">Maki <br><span>Zenin</span></div>
+                <div class="char-ability">Heavenly Restriction</div>
+            </div>
+        </article>
+
+        <article class="char-card higuruma" id="higuruma" data-char="higuruma">
+            <div class="card-inner">
+                <div class="char-name">Hiromi <br><span>Higuruma</span></div>
+                <div class="char-ability">Deadly Sentencing</div>
+            </div>
+        </article>
+    </main>
+
+
+    <div id="char-modal" class="modal">
+        <div class="modal-bg"></div>
+        <button class="close-btn">&times;</button>
+        <div class="modal-content">
+            <div class="details-text">
+                <h2 id="modal-name">Character Name</h2>
+                <div class="divider"></div>
+                <p id="modal-bio">Brief bio goes here...</p>
+            </div>
+            <div class="video-container">
+                <video id="char-video" controls>
+                    <source src="" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>SebDevHN &copy; 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
