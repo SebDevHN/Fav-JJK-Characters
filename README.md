@@ -24,4 +24,3 @@ To view the site locally:
 
 ---
 
-*Developed by SebDevHN © 2026*
